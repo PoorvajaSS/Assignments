@@ -1,0 +1,3 @@
+Salaries are paid monthly. 
+Annual salary is calculated as monthly salary × 12. 
+Deductions include tax and provident fund.
