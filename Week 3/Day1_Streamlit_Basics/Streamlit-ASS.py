@@ -2,7 +2,7 @@ from langchain_openai import ChatOpenAI
 
 import streamlit as st
 
-model = ChatOpenAI(api_key="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"
+model = ChatOpenAI(api_key="sk-proj-vP2nT_o._W-EB3HWF-wcmniXqLSlemkVLMgVgyh3Of_tnMNuBD3XMc30KFa7tjZSS54LZZv16xT3BlBkFJQKFxmMQB952yFLwpJC6I10I-7hAIUBfsg_ApRvTjR9bWp2a3rQVeabZk67LF0i451p4Q8A"
 )
 
 st.header('Research Tool')
@@ -29,5 +29,6 @@ length_input = st.selectbox(
 
 if st.button('Summarize'):
     st.write("Hello")
+
 
 # url --> http://localhost:8501/
